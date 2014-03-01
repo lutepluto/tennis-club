@@ -1,0 +1,289 @@
+body{
+	color: #5a5a5a;
+  padding-top: 50px;
+}
+
+/* index 
+----------------------------------------------------*/
+
+/* CUSTOMIZE THE CAROUSEL
+-------------------------------------------------- */
+
+/* Carousel base class */
+.carousel {
+  height: 500px;
+  margin-bottom: 60px;
+}
+/* Since positioning the image, we need to help out the caption */
+.carousel-caption {
+  z-index: 10;
+}
+
+/* Declare heights because of positioning of img element */
+.carousel .item {
+  height: 500px;
+  background-color: #777;
+}
+.carousel-inner > .item > img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  min-width: 100%;
+  height: 500px;
+}
+
+/* MARKETING CONTENT
+-------------------------------------------------- */
+
+/* Pad the edges of the mobile views a bit */
+.marketing {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+/* Center align the text within the three columns below the carousel */
+.marketing .col-lg-4 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+.marketing h2 {
+  font-weight: normal;
+}
+.marketing .col-lg-4 p {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.glyphicon-size {
+	font-size: 80px;
+}
+
+.content-thumbnail {
+	height: 80px;
+	padding: 0;
+	margin: 0;
+}
+
+/* index end 
+------------------------------------------------------*/
+
+/* court 
+------------------------------------------------------*/
+
+.main-container {
+  margin-top: 20px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.main-container .col-lg-4 {
+  padding: 20px 30px;
+  text-shadow: 0 1px 0 #fff;
+  background-color: #f7f5fa;
+  border-radius: 5px;
+}
+
+.district-label {
+  margin-left: 35px;
+}
+
+.district-label .btn {
+  border-color: #f7f5fa;
+  background-color: #f7f5fa;
+  color: gray;
+  margin-right: 10px;
+}
+
+.district-label a:hover, .district-label .btn-active {
+  border-color: #f7f5fa;
+  background-color: #428bca;
+  color: white;
+  font-weight: 100;
+}
+
+/* court end
+------------------------------------------------------*/
+
+/* tarining 
+------------------------------------------------------*/
+
+.table-training {
+  
+}
+
+.training-item {
+  border: none;
+}
+
+.training-item .col-lg-2, .training-item .col-lg-6 {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.training-item img {
+  width: 140px;
+  height: 140px;
+  margin: 5px;
+}
+
+.training-intro {
+  margin: 5px;
+}
+
+/* tarining end
+------------------------------------------------------*/
+
+/* coach 
+------------------------------------------------------*/
+
+.section-title:before {
+  content: "";
+  display: block;
+  border-top: solid 1px #333;
+  height: 1px;
+  position: absolute;
+  margin-top: 14px;
+  z-index: 1;
+  width: 600px
+}
+
+.section-title {
+  text-align: center;
+  font-size: 22px;
+  width: 600px;
+  margin: 40px auto 20px;
+}
+
+.section-title span {
+  background: #fff;
+  padding: 0 20px;
+  position: relative;
+  z-index: 5
+}
+
+.coach-box .col-lg-3, .coach-box .col-lg-5 {
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+.coach-box img {
+  width: 200px;
+  height: 200px;
+  margin: 5px;
+}
+
+.coach-comment {
+  margin-top: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.coach-comment .list-group-item {
+  border: none;
+  height: 
+}
+
+.comment img {
+  width: 80px;
+  height: 80px;
+}
+
+/* coach end
+------------------------------------------------------*/
+
+/* rating
+------------------------------------------------------*/
+
+.rating-intro {
+  margin-top: 40px;
+  margin-bottom: 20px;
+}
+
+.rating-intro .section-title {
+  margin-bottom: 20px;
+}
+
+.rating-intro .section-title, .rating-intro .section-title:before {
+  width: 800px;
+}
+
+.rating-header {
+  padding-bottom: 9px;
+  margin: 40px 0 10px;
+  border-bottom: 1px solid #eee;
+}
+
+.rating-sidebar {
+  position: relative;  
+}
+
+.affix {
+  position: fixed;
+  top: 100px;
+}
+
+.affix-bottom {
+  position: absolute;
+  top: auto;
+  bottom: 400px;
+}
+
+.rating-sidebar {
+  padding-top: 40px;
+  padding-left: 20px;
+}
+
+.nav > li {
+  position: relative;
+  display: block;
+}
+
+.rating-sidebar .nav > li > a {
+  display: block;
+  font-size: 13px;
+  font-weight: 500;
+  color: #999;
+  padding: 4px 20px;
+}
+
+.rating-sidebar .nav > .active > a, .rating-sidebar .nav > .active:hover >a {
+  padding-left: 18px;
+  font-weight: 700;
+  color: #563d7c;
+  background-color: transparent;
+  border-left: 2px solid #563d7c;
+}
+/* rating end
+------------------------------------------------------*/
+
+/* feature 
+------------------------------------------------------*/
+
+.banner-wrapper {
+  padding-top: -1px;
+  margin-bottom: 40px;
+}
+
+.banner-wrapper img {
+  min-width: 100%;
+  height: 200px;
+}
+
+.feature-sum {
+  margin-bottom: 20px;
+  margin-top: 10px;
+  padding: 5px;
+  width: 800px;
+}
+
+.feature-intro img {
+  width: 140px;
+  height: 140px;
+}
+
+/* feature end
+------------------------------------------------------*/
+
+.divider {
+	margin: 80px 0;
+}
