@@ -13,7 +13,7 @@
   <body data-spy="scroll" data-target=".rating-sidebar">
 
     <!-- fixed navbar -->
-    <div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+    <header class="navbar navbar-color navbar-fixed-top" role="navigation">
       <div class="container">
         <div class="navbar-header">
           <a class="navbar-brand" href="#">网球俱乐部</a>
@@ -26,9 +26,14 @@
             <li><a href="training.html">培训</a></li>
             <li class="active"><a href="#">网球等级评定</a></li>
           </ul>
+
+          <ul class="navbar-right club-address">
+            <li>俱乐部地址：上海XX街XX号</li>
+            <li>联系电话：123456789</li>
+          </ul>
         </div>
       </div>
-    </div>
+    </header>
 
     <div class="container main-container">
 
@@ -226,13 +231,37 @@
           </div>
         </div>
       </div>
+    </div><!-- main-container -->
 
-      <hr class="divider">
+    <footer>
+      <div class="container">
+        <div class="row">
+          <div class="col-md-4 col-sm-4 col-md-offset-2 club-info">
+            <p class="lead">联系我们</p>
+            <ul>
+              <li>
+                <span class="glyphicon glyphicon-map-marker"></span>俱乐部地址
+                <div>上海市XX区XX路XXX号XXX</div>
+              </li>
+              <li>
+                <span class="glyphicon glyphicon-phone-alt"></span>联系电话
+                <div>1234567890</div>
+              </li>
+            </ul>
+          </div>
+          <div class="col-md-4 col-sm-4 col-md-offset-1 club-weixin">
+            <p class="lead">关注我们</p>
+            <div class="qrcode">
+              <img src="img/wechat_qrcode.jpg">
+              <div class="qrcode-desc">关注微信公众号</div>
+              <div class="qrcode-number">tennisclub</div>
+            </div>
+          </div>
+        </div>
 
-      <footer>
-        <p>© 2014 Tennis Club.</p>
-      </footer>
-    </div>
+      </div>
+      <p>© 2014 Tennis Club.</p>
+    </footer>
 
     <!-- jQuery -->
     <script src="js/jquery.min.js"></script>
