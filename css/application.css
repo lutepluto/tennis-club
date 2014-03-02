@@ -1,6 +1,124 @@
 body{
 	color: #5a5a5a;
-  padding-top: 50px;
+  padding-top: 60px;
+}
+
+/* ==========================================================================
+   header style
+   ========================================================================== */
+
+header[role="navigation"] {
+  height: 60px;
+  border-bottom: 3px solid #359ADC;
+}
+
+header .navbar-brand {
+  height: 60px;
+  font-size: 20px;
+  line-height: 30px;
+}
+
+.navbar-nav > li > a {
+  height: 57px;
+  font-size: 18px;
+  line-height: 30px;
+  font-weight: bold;
+}
+
+.navbar-color {
+  background-color: #FFFFFF;
+}
+
+.navbar-color .navbar-nav > li > a {
+  color: #898989;
+}
+
+.navbar-color .navbar-brand {
+  color: #898989;
+  font-weight: bold;
+}
+
+.navbar-color .navbar-nav > .active > a, .navbar-nav > li > a:hover{
+  color: #FFFFFF;
+  background-color: #359ADC;
+}
+
+.club-address {
+  list-style: none;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  color: #FFFFE6;
+}
+
+/* ==========================================================================
+   footer style
+   ========================================================================== */
+
+footer {
+  background-color: #161616;
+  color: #D4D4D4;
+  border-top: 3px solid #359ADC;
+  margin-top: 60px;
+}
+
+footer > p {
+  border-top: 2px solid #359ADC;
+  padding-left: 150px;
+  padding-right: 150px;
+  background-color: #FFFFFF;
+  padding-top: 10px;
+  color: #414141;
+}
+
+.club-info, .club-weixin {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.club-info {
+  border-right: 1px solid #C5C7C9;
+}
+
+.club-info p, .club-weixin p {
+  color: #359ADC;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.club-info ul {
+  margin-top: 20px;
+  padding-left: 5px;
+  list-style: none;
+}
+
+.club-info ul li {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.club-info span {
+  margin-right: 20px;
+}
+
+.club-info ul li div {
+  margin-left: 33px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  line-height: 20px;
+}
+
+.qrcode img {
+  height: 100px;
+  width: 100px;
+  margin-bottom: 10px;
+}
+
+.qrcode div {
+  margin-bottom: 5px;
 }
 
 /* index 
@@ -62,6 +180,31 @@ body{
 	height: 80px;
 	padding: 0;
 	margin: 0;
+}
+
+
+/* Minimal Css Required */
+#viewport{
+    width:900px;
+    height:450px;
+    position:relative;
+    overflow:hidden;
+    margin:0 auto;
+    background:#111111  ;
+}
+
+#wall{
+    z-index:1;
+}
+
+#gallery {
+  margin-top: 40px;
+  margin-bottom: 20px;
+}
+
+#gallery img {
+  height: 300px;
+  width: 300px;
 }
 
 /* index end 
