@@ -58,39 +58,43 @@ footer > p {
   color: #414141;
 }
 
-.club-info, .club-weixin {
+footer .row > div {
+  height: 205px;
+}
+
+.club-info, .club-weixin, .club-complain{
   margin-top: 20px;
   margin-bottom: 20px;
-  padding-left: 15px;
+  padding-left: 40px;
   padding-right: 15px;
 }
 
-.club-info {
+.club-info, .club-complain {
   border-right: 1px solid #C5C7C9;
 }
 
-.club-info p, .club-weixin p {
+.club-info p, .club-weixin p, .club-complain p{
   color: #359ADC;
   font-size: 18px;
   font-weight: bold;
 }
 
-.club-info ul {
+.club-info ul, .club-complain ul {
   margin-top: 20px;
   padding-left: 5px;
   list-style: none;
 }
 
-.club-info ul li {
+.club-info ul li, .club-complain ul li {
   margin-top: 10px;
   margin-bottom: 10px;
 }
 
-.club-info span {
+.club-info span, .club-complain span {
   margin-right: 20px;
 }
 
-.club-info ul li div {
+.club-info ul li div, .club-complain ul li div {
   margin-left: 33px;
   margin-top: 5px;
   margin-bottom: 5px;
@@ -181,6 +185,7 @@ footer > p {
 
 .glyphicon-size {
 	font-size: 80px;
+  color: #359ADC;
 }
 
 .content-thumbnail {
@@ -294,6 +299,18 @@ footer > p {
   padding: 0 20px;
   position: relative;
   z-index: 5
+}
+
+.section-content {
+  margin-left: 40px;
+  margin-right: 40px;
+  padding-left: 40px;
+  padding-right: 40px;
+}
+
+.section-content p {
+  margin: 5px;
+  line-height: 2;
 }
 
 .coach-box .col-lg-3, .coach-box .col-lg-5 {
