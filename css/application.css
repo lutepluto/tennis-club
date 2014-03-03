@@ -1,6 +1,6 @@
 body{
 	color: #5a5a5a;
-  padding-top: 60px;
+  padding-top: 50px;
 }
 
 /* ==========================================================================
@@ -8,20 +8,15 @@ body{
    ========================================================================== */
 
 header[role="navigation"] {
-  height: 60px;
   border-bottom: 3px solid #359ADC;
 }
 
 header .navbar-brand {
-  height: 60px;
   font-size: 20px;
-  line-height: 30px;
 }
 
 .navbar-nav > li > a {
-  height: 57px;
   font-size: 18px;
-  line-height: 30px;
   font-weight: bold;
 }
 
@@ -41,15 +36,6 @@ header .navbar-brand {
 .navbar-color .navbar-nav > .active > a, .navbar-nav > li > a:hover{
   color: #FFFFFF;
   background-color: #359ADC;
-}
-
-.club-address {
-  list-style: none;
-  padding-left: 15px;
-  padding-right: 15px;
-  padding-top: 10px;
-  padding-bottom: 10px;
-  color: #FFFFE6;
 }
 
 /* ==========================================================================
