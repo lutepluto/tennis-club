@@ -144,6 +144,59 @@ footer .row > div {
   height: 400px;
 }
 
+.announcement {
+  position: absolute;
+  display: inline-block;
+  z-index: 15;
+  left: 50%;
+  top: 10px;
+  height: 35px;
+  margin-left: -20%;
+  border-radius: 5px;
+  background: none repeat scroll 0 0 rgba(90, 159, 212, 0.5);
+}
+
+.announcement .glyphicon {
+  margin-left: 15px;
+  width: 25px;
+  height: 35px;
+  display: inline-block;
+  float: left;
+  font-size: 20px;
+  padding-top: 5px;
+  color: #E66F11;
+}
+
+.announce-content { 
+  float: left;
+  line-height: 35px;
+  padding-left: 5px;
+  margin: auto 0px;
+  color: #43C2DA;
+  overflow: hidden;
+  height: 35px;
+}
+
+.announce-content ul {
+  list-style: none;
+  padding-left: 0px;
+}
+
+.announce-content ul li a {
+  color: #000;
+}
+
+.announce-content ul li a:hover {
+  color: #359ADC;
+}
+
+.announce-more {
+  line-height: 35px;
+  padding-left: 5px;
+  padding-right: 5px;
+  margin: auto 0px;
+}
+
 .first-slide {
   height: 400px;
   background: url("../img/slide1.jpg") no-repeat 100%;
