@@ -137,22 +137,39 @@
   	  	    <a class="btn btn-default btn-lg" href="rating.html" role="button">了解更多</a>
   	  	  </p>
   	  	</div>
+
+        <div class="col-lg-6 exhibition">
+          
+          <div class="section-title">
+            <span>精彩照片</span>
+          </div>
+
+          <div class="album">
+            <a href="#">
+              <span class="pin"></span>
+              <img src="img/1.jpg">
+            </a>
+          </div>
+        </div><!-- col-lg-6 -->
+
+        <div class="col-lg-6 exhibition">
+
+          <div class="section-title">
+            <span>精彩视频</span>
+          </div>
+
+          <div class="album">
+            <a href="#">
+              <span class="pin"></span>
+              <span class="video glyphicon glyphicon-play-circle"></span>
+              <img src="img/5.jpg">
+            </a>
+          </div>
+        </div><!-- col-lg-6 -->
+
   	  </div><!--row-->
   	  
   	</div><!-- main-container -->
-
-    <div id="gallery" class="owl-carousel">
-      <div><img src="img/1.jpg"></div>
-      <div><img src="img/2.jpg"></div>
-      <div><img src="img/3.jpg"></div>
-      <div><img src="img/6.jpg"></div>
-      <div><img src="img/7.jpg"></div>
-      <div><img src="img/8.jpg"></div>
-      <div><img src="img/10.jpg"></div>
-      <div><img src="img/4.jpg"></div>
-      <div><img src="img/5.jpg"></div>
-      <div><img src="img/9.jpg"></div>
-    </div>
 
     <footer>
       <div class="container">
@@ -206,21 +223,6 @@
     <script src="js/jquery.min.js"></script>
     <!-- Bootstrap -->
     <script src="js/bootstrap.min.js"></script>
-
-    <script src="js/owl.carousel.min.js"></script>
-
-    <script>
-      //$('#gallery').photobox('a', {autoplay: true});
-      // or with a fancier selector and some settings, and a callback:
-      $(document).ready(function() {
-        var owl = $("#gallery");
-
-        owl.owlCarousel({
-          autoPlay: true,
-          slideSpeed: 100
-        });    
-      });
-    </script>
 
     <script>
       $(function() {
