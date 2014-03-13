@@ -600,6 +600,51 @@ footer .row > div {
   background-color: #359ADC;
 }
 
+/* news end
+------------------------------------------------------*/
 
-/* new end
+/* photos
+------------------------------------------------------*/
+
+.gallery > div {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.gallery > div > img {
+  width: 263px;
+  height: 178px;
+  margin-bottom: 10px;
+}
+
+.gallery > div > embed {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.maikai-nav {
+  border-bottom: none;
+  border-top: 1px solid #ddd;
+  margin-top: 40px;
+}
+
+.maikai-nav > li {
+  margin-top: -1px;
+}
+
+.maikai-nav > li.active > a {
+  border: 1px solid #ddd;
+  border-top-color: transparent;
+}
+
+.maikai-nav > li.active > a:hover {
+  border-bottom: 1px solid #ddd;
+  border-top: none;
+}
+
+.maikai-nav > li > a {
+  border-radius: 0 0 4px 4px;
+}
+
+/* photos end
 ------------------------------------------------------*/
