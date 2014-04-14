@@ -1,46 +1,37 @@
 body{
-	color: #5a5a5a;
-  padding-top: 50px;
+  font-family: "Microsoft YaHei","微软雅黑" !important;
+  background: #eee;
+  padding-top: 70px;
 }
 
-/* ==========================================================================
-   header style
-   ========================================================================== */
+/* ============================= header ============================= */
 
-header[role="navigation"] {
-  border-bottom: 3px solid #359ADC;
+.mk-navbar {
+  background-color: #fff;
+  border-top: 3px solid #CCE425;
 }
 
-header .navbar-brand {
-  font-size: 20px;
+.mk-navbar .navbar-header > .navbar-brand {
+  height: 70px;
 }
 
-.navbar-nav > li > a {
-  font-size: 18px;
-  font-weight: bold;
-}
-
-.navbar-color {
-  background-color: #FFFFFF;
-}
-
-.navbar-color .navbar-nav > li > a {
-  color: #898989;
-}
-
-.navbar-color .navbar-brand {
-  color: #898989;
-  font-weight: bold;
-}
-
-.navbar-color .navbar-nav > .active > a, .navbar-nav > li > a:hover{
-  color: #FFFFFF;
-  background-color: #359ADC;
-}
-
-.nav > li > a {
+.mk-navbar-nav > li > a {
   width: 100px;
   text-align: center;
+  line-height: 37px;
+}
+
+.mk-navbar .navbar-nav > .active > a,
+.mk-navbar .navbar-nav > .active > a:hover,
+.mk-navbar .navbar-nav > .active > a:focus {
+  color: #555;
+  background-color: transparent;
+  border-bottom:  3px solid #CCE425;
+}
+
+.mk-navbar .navbar-nav >  li > a:hover,
+.mk-navbar .navbar-nav >  li > a:active {
+  border-bottom: 3px solid #CCE425;
 }
 
 /* ==========================================================================
