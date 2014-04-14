@@ -1,0 +1,195 @@
+/* ================ common css ================ */
+
+.display-inline {
+  display: inline;
+}
+
+.display-inline-block {
+  display: inline-block;
+}
+
+.display-block {
+  display: block;
+}
+
+.display-table {
+  display: table;
+}
+
+.display-table-cell {
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.no-padding {
+  padding-top: 0px;
+  padding-right: 0px;
+  padding-bottom: 0px;
+  padding-left: 0px;
+}
+
+.top-margin-5 {
+  margin-top: 5px;
+}
+
+.right-margin-5 {
+  margin-right: 5px;
+}
+
+.bottom-margin-5 {
+  margin-bottom: 5px;
+}
+
+.left-margin-5 {
+  margin-left: 5px;
+}
+
+.top-margin-10 {
+  margin-top: 10px;
+}
+
+.right-margin-10 {
+  margin-right: 10px;
+}
+
+.bottom-margin-10 {
+  margin-bottom: 10px;
+}
+
+.left-margin-10 {
+  margin-left: 10px;
+}
+
+.top-margin-15 {
+  margin-top: 15px;
+}
+
+.right-margin-15 {
+  margin-right: 15px;
+}
+
+.bottom-margin-15 {
+  margin-bottom: 15px;
+}
+
+.left-margin-15 {
+  margin-left: 15px;
+}
+
+.top-margin-20 {
+  margin-top: 20px;
+}
+
+.right-margin-20 {
+  margin-right: 20px;
+}
+
+.bottom-margin-20 {
+  margin-bottom: 20px;
+}
+
+.left-margin-20 {
+  margin-left: 20px;
+}
+
+.no-top-margin {
+  margin-top: 0px;
+}
+
+.no-bottom-margin {
+  margin-bottom: 0px;
+}
+
+.no-vertical-margin {
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+.no-border {
+  border-top: 0px;
+  border-right: 0px;
+  border-bottom: 0px;
+  border-left: 0px;
+}
+
+.no-bottom-border {
+  border-bottom: 0px;
+}
+
+.text-align-center {
+  text-align: center;
+}
+
+.text-align-right {
+  text-align: right;
+}
+
+.font-size-12 {
+  font-size: 12px;
+}
+
+.font-size-16 {
+  font-size: 16px;
+}
+
+.box-ellipsis {
+  word-wrap: break-word;
+  word-break: break-all;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  text-overflow:-o-ellipsis-lastline;
+  display: -webkit-box;
+  -webkit-line-clamp: 5;
+  -webkit-box-orient: vertical;
+}
+
+/* ================ some color class ================ */
+.default-color {
+	color: #ccc;
+}
+
+.default-color:hover {
+	color: #adadad;
+}
+
+.success-color {
+	color: #5cb85c;
+}
+
+.success-color:hover {
+	color: #47a447;
+}
+
+.primary-color {
+	color: #428bca;
+}
+
+.primary-color:hover {
+	color: #3276b1;
+}
+
+.info-color {
+	color: #5bc0de;
+}
+
+.info-color:hover {
+	color: #39b3d7;
+}
+
+.warning-color: {
+	color: #f0ad4e;
+}
+
+.warning-color:hover {
+	color: #ed9c28;
+}
+
+.danger-color {
+	color: #d9534f;
+}
+
+.danger-color:hover {
+	color: #d2322d;
+}
+
+
