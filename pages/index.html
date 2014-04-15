@@ -6,13 +6,13 @@
     <title>首页</title>
 
     <!-- Bootstrap -->
-    <link href="css/bootstrap.css" rel="stylesheet">
+    <link href="../css/bootstrap.min.css" rel="stylesheet">
 
     <!-- base css -->
-    <link href="css/base.css" rel="stylesheet">
+    <link href="../css/base.css" rel="stylesheet">
 
     <!-- application css -->
-    <link href="css/application.css" rel="stylesheet">
+    <link href="../css/application.css" rel="stylesheet">
   </head>
   <body>
 
@@ -28,7 +28,7 @@
             <span class="icon-bar"></span>
           </button>
   	      <a class="navbar-brand no-padding" href="index.html">
-            <img src="img/logo.png" width="50px">&nbsp;&nbsp;迈凯网球俱乐部
+            <img src="../img/logo.png" width="50px">&nbsp;&nbsp;迈凯网球俱乐部
           </a>
   	    </div>
 
@@ -45,7 +45,7 @@
   	</header>
 
   	<!-- Carousel -->
-  	<div class="carousel slide" id="myCarousel" data-ride="carousel">
+  	<div class="carousel slide mk-carousel" id="myCarousel" data-ride="carousel">
   	  <!-- Indicator -->
   	  <ol class="carousel-indicators">
   	    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
@@ -53,44 +53,38 @@
   	    <li data-target="#myCarousel" data-slide-to="2"></li>
   	  </ol>
 
-      <!-- announcement -->
-      <div class="announcement">
-        <span class="glyphicon glyphicon-bullhorn"></span>
-        <span class="announce-content">最新动态：</span>
-        <span class="announce-content">
+      <div class="mk-carousel-message">
+
+        <span class="glyphicon glyphicon-bullhorn pull-left"></span>
+        <span class="pull-left">&nbsp;最新动态：</span>
+
+        <a class="right-margin-10 pull-right" href="message.html">更多&gt;&gt;</a>
+
+        <div class="message-list">
           <ul>
-            <li><a href="announcement.html">前十位报名俱乐部一对一教学且一次报名30小时...</a></li>
-            <li><a href="announcement.html">凡参加俱乐部网球培训的学员可获得俱乐部积分...</a></li>
-            <li><a href="slideNews.html">巴西杯扎科帕洛娃惊天大逆转折桂 打破近9年冠军荒...</a></li>
+            <li><a href="message.html">前十位报名俱乐部一对一教学且一次报名30adwdaawdawdawdawdawd</a></li>
+            <li><a href="message.html">凡参加俱乐部网球培训的学员可获得俱乐部积分</a></li>
+            <li><a href="news.html">巴西杯扎科帕洛娃惊天大逆转折桂 打破近9年冠军荒</a></li>
           </ul>
-        </span>
-        <a class="announce-more" href="announcement.html">更多>></a>
+        </div>
+        
       </div>
 
   	  <!-- wrapper for slides -->
-  	  <div class="carousel-inner">
+  	  <div class="carousel-inner mk-carousel-inner">
+
   	    <div class="item active">
-          <div class="first-slide">
-            <div class="row">
-              <div class="col-md-4 col-sm-4 col-md-offset-3 club-slogan">
-                <p class="welcome">欢迎进入迈凯网球俱乐部</p>
-                <p>Welcome to Maikai Tennis Club</p>
-                <p class="aim">我们的宗旨是</p>
-                <p class="aim">热情、健康、快乐、专业</p>
-                <div>
-                  <a class="btn btn-lg btn-primary" href="training.html">立即报名</a>
-                  <a class="btn btn-lg btn-success" href="#">体验课程</a>
-                </div>
-              </div>
-            </div>  
-          </div><!-- first-slide-->
+          <img src="../img/slide1.jpg">
   	    </div>
+
   	    <div class="item">
-  	      <img src="img/slide2.jpg">
+  	      <img src="../img/slide2.jpg">
   	    </div>
+
   	    <div class="item">
-  	      <img src="img/slide3.jpg">
+  	      <img src="../img/slide3.jpg">
   	    </div>
+
   	  </div>
 
   	  <!-- Controls -->
@@ -158,7 +152,7 @@
           <div class="album">
             <a href="photos.html">
               <span class="pin"></span>
-              <img src="img/1.jpg">
+              <img src="../img/1.jpg">
             </a>
           </div>
         </div><!-- col-lg-6 -->
@@ -173,7 +167,7 @@
             <a href="videos.html">
               <span class="pin"></span>
               <span class="video glyphicon glyphicon-play-circle"></span>
-              <img src="img/5.jpg">
+              <img src="../img/5.jpg">
             </a>
           </div>
         </div><!-- col-lg-6 -->
@@ -218,7 +212,7 @@
           <div class="col-md-4 col-sm-4 club-weixin">
             <p class="lead">关注我们</pin>
             <div class="qrcode">
-              <img src="img/wechat_qrcode.jpg">
+              <img src="../img/wechat_qrcode.jpg">
               <div class="qrcode-desc">关注微信公众号</div>
               <div class="qrcode-number">tennisclub</div>
             </div>
@@ -231,13 +225,13 @@
 
 
   	<!-- jQuery -->
-    <script src="js/jquery.min.js"></script>
+    <script src="../js/jquery.min.js"></script>
     <!-- Bootstrap -->
-    <script src="js/bootstrap.min.js"></script>
+    <script src="../js/bootstrap.min.js"></script>
 
     <script>
       $(function() {
-        var $slideNews = $(".announcement ul"),
+        var $slideNews = $(".message-list ul"),
             $slideContents = $slideNews.children("li"),
             $slideContentLength = $slideContents.length,
             $itemHeight = $slideContents.first().height(),
@@ -246,7 +240,7 @@
 
         function calLocation() {
           var $location = $itemHeight;
-          $currentItem = $currentItem + 1;
+              $currentItem = $currentItem + 1;
           if($currentItem > $slideContentLength) {
             $currentItem = 1;
             $location = 0;
@@ -272,7 +266,7 @@
           }
 
           $slideNews.animate({
-          'margin-top': $shiftVal
+            'margin-top': $shiftVal
           }, 3000);
         }, 5000);
 

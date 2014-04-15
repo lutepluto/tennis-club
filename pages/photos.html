@@ -6,24 +6,34 @@
     <title>照片和视频</title>
 
     <!-- Bootstrap -->
-    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="../css/bootstrap.min.css" rel="stylesheet">
 
-    <link href="css/application.css" rel="stylesheet">
+    <!-- base css -->
+    <link href="../css/base.css" rel="stylesheet">
 
-    <link rel="stylesheet" href="css/owl.carousel.css">
-    <link rel="stylesheet" href="css/owl.theme.css">
+    <!-- application css -->
+    <link href="../css/application.css" rel="stylesheet">
   </head>
   <body>
 
   	<!-- fixed navbar -->
-  	<header class="navbar navbar-color navbar-fixed-top" role="navigation">
+  	<header class="navbar navbar-default navbar-fixed-top mk-navbar" role="navigation">
   	  <div class="container">
-  	    <div class="navbar-header">
-  	      <a class="navbar-brand" href="index.html">网球俱乐部</a>
-  	    </div>
 
-  	    <div class="collapse navbar-collapse navbar-right">
-  	      <ul class="nav navbar-nav">
+  	    <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#mk-collapse">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand no-padding" href="index.html">
+            <img src="../img/logo.png" width="50px">&nbsp;&nbsp;迈凯网球俱乐部
+          </a>
+        </div>
+
+  	    <div class="collapse navbar-collapse" id="mk-collapse">
+  	      <ul class="nav navbar-nav mk-navbar-nav">
   	        <li><a href="index.html">首&nbsp;&nbsp;页</a></li>
   	        <li><a href="court.html">球&nbsp;&nbsp;场</a></li>
   	        <li><a href="training.html">培&nbsp;&nbsp;训</a></li>
@@ -40,43 +50,43 @@
       <div class="row gallery">
 
         <div class="col-md-3 col-lg-3">
-          <img class="img-thumbnail" src="img/2.jpg">
+          <img class="img-thumbnail" src="../img/2.jpg">
           <span>图片名称/简介</span>
         </div>
         <div class="col-md-3 col-lg-3">
-          <img class="img-thumbnail" src="img/3.jpg">
+          <img class="img-thumbnail" src="../img/3.jpg">
           <span>图片名称/简介</span>
         </div>
         <div class="col-md-3 col-lg-3">
-          <img class="img-thumbnail" src="img/4.jpg">
+          <img class="img-thumbnail" src="../img/4.jpg">
           <span>图片名称/简介</span>
         </div>
         <div class="col-md-3 col-lg-3">
-          <img class="img-thumbnail" src="img/5.jpg">
+          <img class="img-thumbnail" src="../img/5.jpg">
           <span>图片名称/简介</span>
         </div>
          <div class="col-md-3 col-lg-3">
-          <img class="img-thumbnail" src="img/6.jpg">
+          <img class="img-thumbnail" src="../img/6.jpg">
           <span>图片名称/简介</span>
         </div>
          <div class="col-md-3 col-lg-3">
-          <img class="img-thumbnail" src="img/7.jpg">
+          <img class="img-thumbnail" src="../img/7.jpg">
           <span>图片名称/简介</span>
         </div>
          <div class="col-md-3 col-lg-3">
-          <img class="img-thumbnail" src="img/8.jpg">
+          <img class="img-thumbnail" src="../img/8.jpg">
           <span>图片名称/简介</span>
         </div>
          <div class="col-md-3 col-lg-3">
-          <img class="img-thumbnail" src="img/9.jpg">
+          <img class="img-thumbnail" src="../img/9.jpg">
           <span>图片名称/简介</span>
         </div>
         <div class="col-md-3 col-lg-3">
-          <img class="img-thumbnail" src="img/10.jpg">
+          <img class="img-thumbnail" src="../img/10.jpg">
           <span>图片名称/简介</span>
         </div>
         <div class="col-md-3 col-lg-3">
-          <img class="img-thumbnail" src="img/10.jpg">
+          <img class="img-thumbnail" src="../img/10.jpg">
           <span>图片名称/简介</span>
         </div>
 
@@ -93,7 +103,7 @@
       </ul>
 
       <ul class="nav nav-tabs maikai-nav">
-          <li class="active"><a href="photos.html">精彩图集</a></li>
+          <li class="active"><a href="../photos.html">精彩图集</a></li>
           <li><a href="videos.html">精彩视频</a></li>
       </ul>
   	  
@@ -135,7 +145,7 @@
           <div class="col-md-4 col-sm-4 club-weixin">
             <p class="lead">关注我们</p>
             <div class="qrcode">
-              <img src="img/wechat_qrcode.jpg">
+              <img src="../img/wechat_qrcode.jpg">
               <div class="qrcode-desc">关注微信公众号</div>
               <div class="qrcode-number">tennisclub</div>
             </div>
@@ -148,9 +158,9 @@
 
 
   	<!-- jQuery -->
-    <script src="js/jquery.min.js"></script>
+    <script src="../js/jquery.min.js"></script>
     <!-- Bootstrap -->
-    <script src="js/bootstrap.min.js"></script>
+    <script src="../js/bootstrap.min.js"></script>
 
   </body>
 </html>

@@ -6,27 +6,41 @@
     <title>培训 - Training</title>
 
     <!-- Bootstrap -->
-    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link href="../css/bootstrap.min.css" rel="stylesheet">
 
-    <link rel="stylesheet" href="css/application.css">
+    <!-- base css -->
+    <link href="../css/base.css" rel="stylesheet">
+
+    <!-- application css -->
+    <link href="../css/application.css" rel="stylesheet">
   </head>
   <body>
 
     <!-- fixed navbar -->
-    <header class="navbar navbar-color navbar-fixed-top" role="navigation">
+    <header class="navbar navbar-default navbar-fixed-top mk-navbar" role="navigation">
       <div class="container">
+
         <div class="navbar-header">
-          <a class="navbar-brand" href="#">网球俱乐部</a>
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#mk-collapse">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand no-padding" href="index.html">
+            <img src="../img/logo.png" width="50px">&nbsp;&nbsp;迈凯网球俱乐部
+          </a>
         </div>
 
-        <div class="collapse navbar-collapse navbar-right">
-          <ul class="nav navbar-nav">
+        <div class="collapse navbar-collapse" id="mk-collapse">
+          <ul class="nav navbar-nav mk-navbar-nav">
             <li><a href="index.html">首&nbsp;&nbsp;页</a></li>
             <li><a href="court.html">球&nbsp;&nbsp;场</a></li>
             <li class="active"><a href="training.html">培&nbsp;&nbsp;训</a></li>
             <li><a href="news.html">资&nbsp;&nbsp;讯</a></li>
           </ul>
         </div>
+
       </div>
     </header>
 
@@ -68,7 +82,7 @@
         <div class="list-group-item training-item">
           <div class="row">
             <div class="col-lg-2 col-lg-offset-2">
-              <img class="img-circle" src="img/train-1on1.jpg">
+              <img class="img-circle" src="../img/train-1on1.jpg">
             </div>
             <div class="col-lg-6">
               <div class="training-intro">
@@ -83,7 +97,7 @@
         <div class="list-group-item training-item">
           <div class="row">
             <div class="col-lg-2 col-lg-offset-2">
-              <img class="img-circle" src="img/train-adult.jpg">
+              <img class="img-circle" src="../img/train-adult.jpg">
             </div>
             <div class="col-lg-6">
               <div class="training-intro">
@@ -98,7 +112,7 @@
         <div class="list-group-item training-item">
           <div class="row">
             <div class="col-lg-2 col-lg-offset-2">
-              <img class="img-circle" src="img/train-teen.jpg">
+              <img class="img-circle" src="../img/train-teen.jpg">
             </div>
             <div class="col-lg-6">
               <div class="training-intro">
@@ -113,7 +127,7 @@
         <div class="list-group-item training-item">
           <div class="row">
             <div class="col-lg-2 col-lg-offset-2">
-              <img class="img-circle" src="img/train-kid.jpg">
+              <img class="img-circle" src="../img/train-kid.jpg">
             </div>
             <div class="col-lg-6">
               <div class="training-intro">
@@ -128,7 +142,7 @@
         <div class="list-group-item training-item">
           <div class="row">
             <div class="col-lg-2 col-lg-offset-2">
-              <img class="img-circle" src="img/train-company.jpg">
+              <img class="img-circle" src="../img/train-company.jpg">
             </div>
             <div class="col-lg-6">
               <div class="training-intro">
@@ -179,7 +193,7 @@
           <div class="col-md-4 col-sm-4 club-weixin">
             <p class="lead">关注我们</p>
             <div class="qrcode">
-              <img src="img/wechat_qrcode.jpg">
+              <img src="../img/wechat_qrcode.jpg">
               <div class="qrcode-desc">关注微信公众号</div>
               <div class="qrcode-number">tennisclub</div>
             </div>
@@ -192,8 +206,8 @@
 
 
     <!-- jQuery -->
-    <script src="js/jquery.min.js"></script>
+    <script src="../js/jquery.min.js"></script>
     <!-- Bootstrap -->
-    <script src="js/bootstrap.min.js"></script>
+    <script src="../js/bootstrap.min.js"></script>
   </body>
 </html>

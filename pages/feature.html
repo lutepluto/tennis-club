@@ -6,32 +6,45 @@
     <title>特色 - Feature</title>
 
     <!-- Bootstrap -->
-    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
 
-    <link rel="stylesheet" href="css/application.css">
+    <!-- base css -->
+    <link rel="stylesheet" href="../css/base.css">
+
+    <link rel="stylesheet" href="../css/application.css">
   </head>
   <body>
 
   	<!-- fixed navbar -->
-  	<header class="navbar navbar-color navbar-fixed-top" role="navigation">
+  	<header class="navbar navbar-default navbar-fixed-top mk-navbar" role="navigation">
   	  <div class="container">
-  	    <div class="navbar-header">
-  	      <a class="navbar-brand" href="#">网球俱乐部</a>
-  	    </div>
 
-  	    <div class="collapse navbar-collapse navbar-right">
-  	      <ul class="nav navbar-nav">
+  	    <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#mk-collapse">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand no-padding" href="index.html">
+            <img src="../img/logo.png" width="50px">&nbsp;&nbsp;迈凯网球俱乐部
+          </a>
+        </div>
+
+  	    <div class="collapse navbar-collapse" id="mk-collapse">
+  	      <ul class="nav navbar-nav mk-navbar-nav">
   	        <li><a href="index.html">首&nbsp;&nbsp;页</a></li>
             <li><a href="court.html">球&nbsp;&nbsp;场</a></li>
             <li><a href="training.html">培&nbsp;&nbsp;训</a></li>
             <li><a href="news.html">资&nbsp;&nbsp;讯</a></li>
   	      </ul>
   	    </div>
+
   	  </div>
   	</header>
 
     <div class="banner-wrapper">
-      <img src="img/banner2.jpg">
+      <img src="../img/banner2.jpg">
     </div>
 
   	<div class="container main-container">
@@ -46,14 +59,14 @@
 
       <div class="row feature-intro">
         <div class="col-md-2">
-          <img class="img-circle pull-right" src="img/watch.jpg">
+          <img class="img-circle pull-right" src="../img/watch.jpg">
         </div>
         <div class="col-md-4">
           <p class="lead">针对一对一教学的学员可享受我们俱乐部提供的利用运动手环来监测在整个培训过程中学员消耗卡路里数的服务并记录数据，在一定阶段后我们为每个学员做出运动量和时间曲线，并根据数据和个人情况，我们教练将为学员提出合理、科学的建议，让学员在了解自身情况下享受网球运动的健康性。</p>
         </div>
 
         <div class="col-md-2">
-          <img class="img-circle pull-right" src="img/video.jpg">
+          <img class="img-circle pull-right" src="../img/video.jpg">
         </div>
         <div class="col-md-4">
           <p class="lead">视频讲解、分析：在整个培训过程中，我们的教练会利用视频教学法和直观法来给学员讲解、分析和示范在培训中容易出现问题的技术动作要领，使学员能够充分理解从而学的轻松，并根据个人情况和特点提出专业的学习建议。</p>
@@ -97,7 +110,7 @@
           <div class="col-md-4 col-sm-4 club-weixin">
             <p class="lead">关注我们</p>
             <div class="qrcode">
-              <img src="img/wechat_qrcode.jpg">
+              <img src="../img/wechat_qrcode.jpg">
               <div class="qrcode-desc">关注微信公众号</div>
               <div class="qrcode-number">tennisclub</div>
             </div>
@@ -109,8 +122,8 @@
     </footer>
 
     <!-- jQuery -->
-    <script src="js/jquery.min.js"></script>
+    <script src="../js/jquery.min.js"></script>
     <!-- Bootstrap -->
-    <script src="js/bootstrap.min.js"></script>
+    <script src="../js/bootstrap.min.js"></script>
   </body>
 </html>
