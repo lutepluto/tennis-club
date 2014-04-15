@@ -1,7 +1,7 @@
 body{
   font-family: "Microsoft YaHei","微软雅黑" !important;
   background: #eee;
-  padding-top: 70px;
+  padding-top: 50px;
 }
 
 /* ============================= header ============================= */
@@ -12,13 +12,13 @@ body{
 }
 
 .mk-navbar .navbar-header > .navbar-brand {
-  height: 70px;
+  font-size: 24px;
+  text-shadow: 2px 2px 4px #aaa;
 }
 
 .mk-navbar-nav > li > a {
   width: 100px;
   text-align: center;
-  line-height: 37px;
 }
 
 .mk-navbar .navbar-nav > .active > a,
