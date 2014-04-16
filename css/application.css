@@ -532,27 +532,34 @@ footer > p {
   margin-bottom: 20px;
 }
 
-.maikai-nav {
-  border-bottom: none;
+.mk-media-nav {
   border-top: 1px solid #ddd;
+  border-bottom: 0px;
   margin-top: 40px;
+  padding-left: 100px;
 }
 
-.maikai-nav > li {
+.mk-media-nav > li {
   margin-top: -1px;
 }
 
-.maikai-nav > li.active > a {
+.mk-media-nav > li > a {
+  border-radius: 0px;
+}
+
+.mk-media-nav > li > a:hover,
+.mk-media-nav > li > a:focus {
+  background-color: #fff;
+  border-radius: 0 0 4px 4px;
+  border-bottom-color: #eee;
+}
+
+.mk-media-nav > li.active > a,
+.mk-media-nav > li.active > a:hover,
+.mk-media-nav > li.active > a:focus {
+  background-color: #eee;
   border: 1px solid #ddd;
-  border-top-color: transparent;
-}
-
-.maikai-nav > li.active > a:hover {
-  border-bottom: 1px solid #ddd;
-  border-top: none;
-}
-
-.maikai-nav > li > a {
+  border-top-color: #eee;
   border-radius: 0 0 4px 4px;
 }
 
