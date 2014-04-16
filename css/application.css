@@ -1,25 +1,36 @@
 body{
   font-family: "Microsoft YaHei","微软雅黑" !important;
   background: #eee;
-  padding-top: 57px;
+  padding-top: 71px;
 }
 
 /* ============================= header ============================= */
 
 .mk-navbar {
   background-color: #fff;
-  border-top: 3px solid #CCE425;
 }
 
 .mk-navbar .navbar-header > .navbar-brand {
   font-size: 24px;
   text-shadow: 2px 2px 4px #aaa;
+  line-height: 65px;
+  height: 70px;
+}
+
+.mk-navbar .navbar-header > .navbar-brand > img {
+  width: 60px;
+}
+
+.mk-navbar-nav {
+  margin-left: 40px;
+  font-size: 16px;
 }
 
 .mk-navbar-nav > li > a {
   width: 100px;
   text-align: center;
   border-bottom: 3px solid transparent;
+  line-height: 37px;
 }
 
 .mk-navbar .navbar-nav > .active > a,
@@ -27,17 +38,15 @@ body{
 .mk-navbar .navbar-nav > .active > a:focus {
   color: #555;
   background-color: transparent;
-  border-bottom-color:  #CCE425;
+  border-bottom-color:  #359ADC;
 }
 
 .mk-navbar .navbar-nav >  li > a:hover,
 .mk-navbar .navbar-nav >  li > a:active {
-  border-bottom-color: #CCE425;
+  border-bottom-color: #359ADC;
 }
 
-/* ==========================================================================
-   footer style
-   ========================================================================== */
+/* ============================= footer ============================= */
 
 footer {
   background-color: #161616;
@@ -108,16 +117,11 @@ footer .row > div {
   margin-bottom: 5px;
 }
 
-/* index 
-----------------------------------------------------*/
-
-/* CUSTOMIZE THE CAROUSEL
--------------------------------------------------- */
+/* ============================= index ============================= */
 
 /* Carousel base class */
 .carousel {
   height: 400px;
-  margin-bottom: 60px;
 }
 /* Since positioning the image, we need to help out the caption */
 .carousel-caption {
@@ -187,9 +191,35 @@ footer .row > div {
   color: #359ADC;
 }
 
-.mk-carousel > .mk-carousel-inner > .item > .mk-slogan {
+.mk-pills-wrapper {
+  margin-bottom: 50px;
+  border-top: 1px solid #dee4eb;
+  border-bottom: 1px solid #dee4eb;
+  background-color: #fff;
+  background-image: -webkit-linear-gradient(bottom, #EBEEF3, #FDFEFF);
+  background-image: linear-gradient(to top, #EBEEF3, #FDFEFF);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#FDFEFF,endColorstr=#EBEEF3,GradientType=0);
 }
 
+.mk-pills > li > a {
+  border-radius: 0px;
+  line-height: 50px;
+  font-size: 20px;
+  color: #485A72;
+  background-color: transparent;
+}
+
+.mk-pills > li > a:hover,
+.mk-pills > li > a:focus {
+  background-color: #EBEEF4;
+}
+
+.mk-pills > li.active > a,
+.mk-pills > li.active > a:hover,
+.mk-pills > li.active > a:focus {
+  color: #485A72;
+  background-color: #EBEEF4;
+}
 
 
 /* MARKETING CONTENT
@@ -268,11 +298,7 @@ footer .row > div {
   height: 495px;
 }
 
-/* index end 
-------------------------------------------------------*/
-
-/* court 
-------------------------------------------------------*/
+/* ============================= court ============================= */
 
 .main-container {
   margin-top: 60px;
@@ -305,11 +331,7 @@ footer .row > div {
   font-weight: 100;
 }
 
-/* court end
-------------------------------------------------------*/
-
-/* tarining 
-------------------------------------------------------*/
+/* ============================= training ============================= */
 
 .table-training {
   
@@ -334,11 +356,7 @@ footer .row > div {
   margin: 5px;
 }
 
-/* tarining end
-------------------------------------------------------*/
-
-/* coach 
-------------------------------------------------------*/
+/* ============================= coach ============================= */
 
 .section-title:before {
   content: "";
@@ -404,11 +422,7 @@ footer .row > div {
   height: 80px;
 }
 
-/* coach end
-------------------------------------------------------*/
-
-/* rating
-------------------------------------------------------*/
+/* ============================= rating ============================= */
 
 .rating-intro {
   margin-top: 40px;
@@ -469,11 +483,8 @@ footer .row > div {
   background-color: transparent;
   border-left: 2px solid #563d7c;
 }
-/* rating end
-------------------------------------------------------*/
 
-/* feature 
-------------------------------------------------------*/
+/* ============================= feature ============================= */
 
 .banner-wrapper {
   padding-top: -1px;
@@ -497,11 +508,7 @@ footer .row > div {
   height: 140px;
 }
 
-/* feature end
-------------------------------------------------------*/
-
-/* news
-------------------------------------------------------*/
+/* ============================= news ============================= */
 
 .news-list {
   border-right: 1px solid #359ADC;
@@ -573,11 +580,7 @@ footer .row > div {
   background-color: #359ADC;
 }
 
-/* news end
-------------------------------------------------------*/
-
-/* photos
-------------------------------------------------------*/
+/* ============================= photo ============================= */
 
 .gallery > div {
   text-align: center;
@@ -619,5 +622,3 @@ footer .row > div {
   border-radius: 0 0 4px 4px;
 }
 
-/* photos end
-------------------------------------------------------*/

@@ -6,7 +6,7 @@
     <title>首页</title>
 
     <!-- Bootstrap -->
-    <link href="../css/bootstrap.min.css" rel="stylesheet">
+    <link href="../css/bootstrap.css" rel="stylesheet">
 
     <!-- base css -->
     <link href="../css/base.css" rel="stylesheet">
@@ -28,12 +28,12 @@
             <span class="icon-bar"></span>
           </button>
   	      <a class="navbar-brand no-padding" href="index.html">
-            <img src="../img/logo.png" width="50px">&nbsp;&nbsp;迈凯网球俱乐部
+            <img src="../img/logo.png">&nbsp;&nbsp;迈凯网球俱乐部
           </a>
   	    </div>
 
   	    <div class="collapse navbar-collapse" id="mk-collapse">
-  	      <ul class="nav navbar-nav mk-navbar-nav left-margin-40 font-size-16">
+  	      <ul class="nav navbar-nav mk-navbar-nav">
   	        <li class="active"><a href="#">首&nbsp;&nbsp;页</a></li>
   	        <li><a href="court.html">球&nbsp;&nbsp;场</a></li>
   	        <li><a href="training.html">培&nbsp;&nbsp;训</a></li>
@@ -63,11 +63,14 @@
         <div class="message-list">
           <ul>
             <li><a href="message.html">前十位报名俱乐部一对一教学且一次报名30adwdaawdawdawdawdawd</a></li>
-            <li><a href="message.html">凡参加俱乐部网球培训的学员可获得俱乐部积分</a></li>
             <li><a href="news.html">巴西杯扎科帕洛娃惊天大逆转折桂 打破近9年冠军荒</a></li>
           </ul>
         </div>
         
+      </div>
+
+      <div class="mk-carousel-entry">
+
       </div>
 
   	  <!-- wrapper for slides -->
@@ -96,83 +99,28 @@
   	  </a>
   	</div><!-- Carousel -->
 
+    <div class="mk-pills-wrapper">
+      <div class="container">
+        <ul class="nav nav-pills nav-justified mk-pills">
+          <li class="active"><a href="#intro" data-toggle="pill"><img src="../img/intro.png" width="40px">&nbsp;俱乐部介绍</a></li>
+          <li><a href="#feature" data-toggle="pill"><img src="../img/feature.png" width="40px">&nbsp;俱乐部特色</a></li>
+          <li><a href="#coach" data-toggle="pill"><img src="../img/coach.png" width="40px">&nbsp;明星教练</a></li>
+          <li><a href="#level" data-toggle="tab"><img src="../img/level.png" width="40px">&nbsp;等级评定</a></li>        
+        </ul>
+      </div>
+    </div>
+
   	<!-- wrap the rest content -->
-  	<div class="container marketing">
+  	<div class="container">
 
-  	  <div class="row">
+  	  <div class="tab-content">
+        <div class="tab-pane fade active" id="intro">
 
-  	  	<!-- feature -->
-  	  	<div class="col-lg-4">
-  	  	  <span class="glyphicon glyphicon-thumbs-up glyphicon-size"></span>
-  	  	  <h2>俱乐部特色</h2>
-  	  	  <div class="content-thumbnail">
-  	  	    <p>
-  	  	      我们的俱乐部始终秉承着热情、健康、专业的宗旨，为了让我们的学员接受专业的指导，享受热情的服务和健康的运动，我们特提供以下的特色服务...
-  	  	    </p>
-  	  	  </div>
-  	  	  <p>
-  	  	    <a class="btn btn-default btn-lg" href="feature.html" role="button">了解更多</a>
-  	  	  </p>
-  	  	</div>
-
-  	  	<!-- coach -->
-  	  	<div class="col-lg-4">
-  	  	  <span class="glyphicon glyphicon-user glyphicon-size"></span>
-  	  	  <h2>明星教练</h2>
-  	  	  <div class="content-thumbnail">
-  	  	    <p>
-  	  	      宋教练（PTR专业教练）：江西省省队退役运动员，曾担任大学校队主教练，带领其队员参加全省大学生联赛，并取得前三甲佳绩...
-  	  	    </p>
-  	  	  </div>
-  	  	  <p>
-  	  	    <a class="btn btn-default btn-lg" href="coach.html" role="button">了解更多</a>
-  	  	  </p>
-  	  	</div>
-
-  	  	<!-- rating -->
-  	  	<div class="col-lg-4">
-  	  	  <span class="glyphicon glyphicon-ok glyphicon-size"></span>
-  	  	  <h2>等级评定</h2>
-  	  	  <div class="content-thumbnail">
-  	  	    <p>
-  	  	      NTRP分级体系即国家网球分级体系（National Tennis Rating Program），创立于1978年，是为美国网球联盟专门为参赛选手设定的一个球员水平分...
-  	  	    </p>
-  	  	  </div>
-  	  	  <p>
-  	  	    <a class="btn btn-default btn-lg" href="rating.html" role="button">了解更多</a>
-  	  	  </p>
-  	  	</div>
-
-        <div class="col-lg-6 exhibition">
-          
-          <div class="section-title">
-            <span>精彩照片</span>
-          </div>
-
-          <div class="album">
-            <a href="photos.html">
-              <span class="pin"></span>
-              <img src="../img/1.jpg">
-            </a>
-          </div>
-        </div><!-- col-lg-6 -->
-
-        <div class="col-lg-6 exhibition">
-
-          <div class="section-title">
-            <span>精彩视频</span>
-          </div>
-
-          <div class="album">
-            <a href="videos.html">
-              <span class="pin"></span>
-              <span class="video glyphicon glyphicon-play-circle"></span>
-              <img src="../img/5.jpg">
-            </a>
-          </div>
-        </div><!-- col-lg-6 -->
-
-  	  </div><!--row-->
+        </div>
+        <div class="tab-pane fade" id="feature">1</div>
+        <div class="tab-pane fade" id="coach">3</div>
+        <div class="tab-pane fade" id="level">4</div>
+      </div>
   	  
   	</div><!-- main-container -->
 
