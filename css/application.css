@@ -205,7 +205,7 @@ footer .row > div {
 }
 
 .mk-pills-wrapper {
-  margin-bottom: 50px;
+  margin-bottom: 60px;
   border-top: 1px solid #dee4eb;
   border-bottom: 1px solid #dee4eb;
   background-color: #fff;
@@ -234,6 +234,29 @@ footer .row > div {
   background-color: #EBEEF4;
 }
 
+.tab-pane > .mk-tab-pane-article {
+  margin-top: 20px;
+}
+
+.tab-pane > .mk-tab-pane-article > p {
+  word-wrap: break-word;
+  word-break: break-all;
+}
+
+.mk-tab-pane img {
+  width: 100px;
+  margin-bottom: 10px;
+  margin-right: 10px;
+}
+
+.mk-tab-pane .coach-pane-content {
+  margin-left: 110px;
+  height: 100%;
+}
+
+.mk-tab-pane .coach-pane-content > .box-ellipsis {
+  height: 100px;
+}
 
 /* MARKETING CONTENT
 -------------------------------------------------- */
@@ -367,73 +390,7 @@ footer .row > div {
 
 .training-intro {
   margin: 5px;
-}
-
-/* ============================= coach ============================= */
-
-.section-title:before {
-  content: "";
-  display: block;
-  border-top: solid 1px #333;
-  height: 1px;
-  position: absolute;
-  margin-top: 14px;
-  z-index: 1;
-  width: 600px
-}
-
-.section-title {
-  text-align: center;
-  font-size: 22px;
-  width: 600px;
-  margin: 40px auto 20px;
-}
-
-.section-title span {
-  background: #fff;
-  padding: 0 20px;
-  position: relative;
-  z-index: 5
-}
-
-.section-content {
-  margin-left: 40px;
-  margin-right: 40px;
-  padding-left: 40px;
-  padding-right: 40px;
-}
-
-.section-content p {
-  margin: 5px;
-  line-height: 2;
-}
-
-.coach-box .col-lg-3, .coach-box .col-lg-5 {
-  margin-top: 20px;
-  margin-bottom: 10px;
-}
-
-.coach-box img {
-  width: 200px;
-  height: 200px;
-  margin: 5px;
-}
-
-.coach-comment {
-  margin-top: 20px;
-  padding-top: 10px;
-  padding-bottom: 10px;
-}
-
-.coach-comment .list-group-item {
-  border: none;
-  height: 
-}
-
-.comment img {
-  width: 80px;
-  height: 80px;
-}
+} 
 
 /* ============================= rating ============================= */
 

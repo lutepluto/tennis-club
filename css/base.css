@@ -136,6 +136,15 @@
   font-size: 16px;
 }
 
+.font-highlight {
+  font-size: 18px;
+  text-shadow: 0px 2px 2px #aaa;
+}
+
+a.no-text-decoration {
+  text-decoration: none;
+}
+
 .box-ellipsis {
   word-wrap: break-word;
   word-break: break-all;
@@ -145,6 +154,13 @@
   display: -webkit-box;
   -webkit-line-clamp: 5;
   -webkit-box-orient: vertical;
+}
+
+.line-ellipsis {
+  width: 100%;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 
 .mk-btn-large {
@@ -198,6 +214,22 @@
 
 .danger-color:hover {
 	color: #d2322d;
+}
+
+.intro-color {
+  color: #E27F33;
+}
+
+.feature-color {
+  color: #57CD2F;
+}
+
+.coach-color {
+  color: #7D79EB;
+}
+
+.level-color {
+  color: #CCE425;
 }
 
 /* ================ nav pills justified ================ */
