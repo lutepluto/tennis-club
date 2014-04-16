@@ -52,7 +52,6 @@ footer {
   background-color: #161616;
   color: #D4D4D4;
   border-top: 3px solid #359ADC;
-  margin-top: 60px;
 }
 
 footer > p {
@@ -64,56 +63,51 @@ footer > p {
   color: #414141;
 }
 
-footer .row > div {
-  height: 205px;
-}
-
-.club-info, .club-weixin, .club-complain{
+.mk-footer-content > .club-info,
+.mk-footer-content > .club-weixin {
   margin-top: 20px;
   margin-bottom: 20px;
   padding-left: 40px;
   padding-right: 15px;
+  height: 205px;
 }
 
-.club-info, .club-complain {
-  border-right: 1px solid #C5C7C9;
-}
-
-.club-info p, .club-weixin p, .club-complain p{
+.mk-footer-content > .club-info > p,
+.mk-footer-content > .club-weixin > p {
   color: #359ADC;
   font-size: 18px;
   font-weight: bold;
 }
 
-.club-info ul, .club-complain ul {
+.mk-footer-content > .club-info > ul {
   margin-top: 20px;
   padding-left: 5px;
   list-style: none;
 }
 
-.club-info ul li, .club-complain ul li {
+.mk-footer-content > .club-info > ul > li {
   margin-top: 10px;
   margin-bottom: 10px;
 }
 
-.club-info span, .club-complain span {
+.mk-footer-content > .club-info > ul > li > span {
   margin-right: 20px;
 }
 
-.club-info ul li div, .club-complain ul li div {
+.mk-footer-content > .club-info > ul > li > div {
   margin-left: 33px;
   margin-top: 5px;
   margin-bottom: 5px;
   line-height: 20px;
 }
 
-.qrcode img {
+.mk-footer-content > .club-weixin > .weixin-qrcode > img {
   height: 100px;
   width: 100px;
   margin-bottom: 10px;
 }
 
-.qrcode div {
+.mk-footer-content > .club-weixin > .weixin-qrcode > div {
   margin-bottom: 5px;
 }
 
@@ -256,6 +250,42 @@ footer .row > div {
 
 .mk-tab-pane .coach-pane-content > .box-ellipsis {
   height: 100px;
+}
+
+.mk-media-pane {
+  background-color: #818F9B;
+  padding-top: 40px;
+  padding-bottom: 80px;
+}
+
+.mk-media-pane .mk-lightbox-entry {
+  margin-top: 10px;
+  margin-bottom: 20px;
+  text-align: right;
+}
+
+.mk-media-pane .mk-lightbox-entry .lightbox-entry-title {
+  font-size: 30px;
+  color: #333;
+  text-shadow: 1px 2px 2px #aaa;
+  text-decoration: none;
+}
+
+.mk-media-pane .mk-lightbox-entry .lightbox-entry-border {
+  height: 3px;
+  background-image: -webkit-linear-gradient(right, #333, #777);
+  background-image: linear-gradient(to left, #333, #777);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#777  ,endColorstr=#333,GradientType=1);
+}
+
+.mk-media-pane .mk-lightbox-image > a {
+  display: inline-block;
+  float: left;
+  width: 50%;
+}
+
+.mk-media-pane .mk-lightbox-image > a > img {
+  width: 100%;
 }
 
 /* MARKETING CONTENT

@@ -206,23 +206,40 @@
   	  
   	</div><!-- container -->
 
+    <div class="mk-media-pane">
+
+      <div class="container">
+
+        <div class="row">
+
+          <div class="col-md-6 col-sm-6 mk-lightbox-image">
+            <div class="mk-lightbox-entry">
+              <p class="no-bottom-margin"><a class="lightbox-entry-title" href="photos.html">迈凯照片墙</a></p>
+              <div class="lightbox-entry-border"></div>
+            </div>
+            <a href="#" data-toggle="tooltip" data-placement="left" data-original-title="照片1"><img class="img-rounded" src="../img/5.jpg"></a>
+            <a href="#" data-toggle="tooltip" data-placement="right" data-original-title="照片2"><img class="img-rounded" src="../img/6.jpg"></a>
+            <a  href="#" data-toggle="tooltip" data-placement="left" data-original-title="照片3"><img class="img-rounded" src="../img/7.jpg"></a>
+            <a href="#" data-toggle="tooltip" data-placement="right" data-original-title="照片4"><img class="img-rounded" src="../img/8.jpg"></a>
+          </div>
+
+          <div class="col-md-6 col-sm-6">
+            <div class="mk-lightbox-entry">
+              <p class="no-bottom-margin"><a class="lightbox-entry-title" href="videos.html">迈凯视频集</a></p>
+              <div class="lightbox-entry-border"></div>
+            </div>
+            <embed src="http://player.youku.com/player.php/sid/XNjk5Mzc4MjQ4/v.swf" quality="high" width="100%" height="400" align="middle" allowScriptAccess="sameDomain" type="application/x-shockwave-flash"></embed>
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+
     <footer>
       <div class="container">
-        <div class="row">
-          <div class="col-md-4 col-sm-4 club-complain">
-            <p class="lead">俱乐部章程</p>
-            <ul>
-              <li>
-                <span class="glyphicon glyphicon-book"></span><a href="#">详细章程</a>
-                <div></div>
-              </li>
-              <li>
-                <span class="glyphicon glyphicon-list"></span><a href="#">会员细则</a>
-                <div></div>
-              </li>
-            </ul>
-          </div>
-          <div class="col-md-4 col-sm-4 club-info">
+        <div class="row mk-footer-content">
+          <div class="col-md-6 col-sm-6 club-info">
             <p class="lead">联系我们</p>
             <ul>
               <li>
@@ -239,18 +256,18 @@
               </li>
             </ul>
           </div>
-          <div class="col-md-4 col-sm-4 club-weixin">
+          <div class="col-md-6 col-sm-6 club-weixin">
             <p class="lead">关注我们</pin>
-            <div class="qrcode">
+            <div class="weixin-qrcode">
               <img src="../img/wechat_qrcode.jpg">
-              <div class="qrcode-desc">关注微信公众号</div>
-              <div class="qrcode-number">tennisclub</div>
+              <div class="weixin-qrcode-desc">关注微信公众号</div>
+              <div class="weixin-qrcode-number">tennisclub</div>
             </div>
           </div>
         </div>
 
       </div>
-      <p>© 2014 Maikai Tennis Club. All rights reserved.</p>
+      <p>© 2014 Mark & Kevin Tennis Club. All rights reserved.</p>
     </footer>
 
 
@@ -300,6 +317,10 @@
           }, 3000);
         }, 5000);
 
+      });
+
+      $('.mk-lightbox-image > a').tooltip({
+        'container': 'body'
       });
     </script>
   </body>
