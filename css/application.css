@@ -191,6 +191,19 @@ footer .row > div {
   color: #359ADC;
 }
 
+.mk-carousel > .mk-carousel-entry {
+  position: absolute;
+  z-index: 15;
+  left: 50%;
+  top: 30%;
+  margin-left: -245px;
+  text-align: center;
+  font-weight: bold;
+  color: #fff;
+  text-shadow: 0px 1px 2px #333;
+  font-family: Copperplate, "Copperplate Gothic Light", fantasy;
+}
+
 .mk-pills-wrapper {
   margin-bottom: 50px;
   border-top: 1px solid #dee4eb;
