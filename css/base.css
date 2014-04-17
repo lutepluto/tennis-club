@@ -1,3 +1,12 @@
+/* ================ font ================ */
+
+@font-face {
+  font-family: Copperplate;
+
+  src: url('../fonts/copperplate_gothic_bold.eot');
+  src: url('../fonts/copperplate_gothic_bold.eot?#iefix') format('embedded-opentype'), url('../fonts/copperplate_gothic_bold.woff') format('woff'), url('../fonts/copperplate_gothic_bold.ttf') format('truetype'), url('../fonts/copperplate_gothic_bold.svg#copperplate_gothic_bold') format('svg');
+}
+
 /* ================ common css ================ */
 
 .display-inline {
