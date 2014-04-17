@@ -55,22 +55,6 @@
   	    <li data-target="#myCarousel" data-slide-to="2"></li>
   	  </ol>
 
-      <div class="mk-carousel-message">
-
-        <span class="glyphicon glyphicon-bullhorn pull-left"></span>
-        <span class="pull-left">&nbsp;最新动态：</span>
-
-        <a class="right-margin-10 pull-right" href="message.html">更多&gt;&gt;</a>
-
-        <div class="message-list">
-          <ul>
-            <li><a href="message.html">前十位报名俱乐部一对一教学且一次报名30adwdaawdawdawdawdawd</a></li>
-            <li><a href="news.html">巴西杯扎科帕洛娃惊天大逆转折桂 打破近9年冠军荒</a></li>
-          </ul>
-        </div>
-        
-      </div>
-
       <div class="mk-carousel-entry">
 
         <h1>Mark & Kevin Tennis Club</h1>
@@ -276,52 +260,5 @@
     <!-- Bootstrap -->
     <script src="../js/bootstrap.min.js"></script>
 
-    <script>
-      $(function() {
-        var $slideNews = $(".message-list ul"),
-            $slideContents = $slideNews.children("li"),
-            $slideContentLength = $slideContents.length,
-            $itemHeight = $slideContents.first().height(),
-            $currentItem = 1;
-
-
-        function calLocation() {
-          var $location = $itemHeight;
-              $currentItem = $currentItem + 1;
-          if($currentItem > $slideContentLength) {
-            $currentItem = 1;
-            $location = 0;
-          }
-          return $location;
-        }
-
-        setInterval(function(){
-
-          var $shiftVal;
-          var $unit;
-
-          var $loc = calLocation();
-
-          if($loc !== 0) {
-            $unit = "-=";
-          }
-
-          if($unit) {
-            $shiftVal = $unit + $loc;
-          } else {
-            $shiftVal = $loc;
-          }
-
-          $slideNews.animate({
-            'margin-top': $shiftVal
-          }, 3000);
-        }, 5000);
-
-      });
-
-      $('.mk-lightbox-image > a').tooltip({
-        'container': 'body'
-      });
-    </script>
   </body>
 </html>
