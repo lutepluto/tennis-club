@@ -64,7 +64,7 @@ footer > p {
 }
 
 .mk-footer-content > .club-info,
-.mk-footer-content > .club-weixin {
+.mk-footer-content > .club-social {
   margin-top: 20px;
   margin-bottom: 20px;
   padding-left: 40px;
@@ -73,42 +73,16 @@ footer > p {
 }
 
 .mk-footer-content > .club-info > p,
-.mk-footer-content > .club-weixin > p {
+.mk-footer-content > .club-social > p {
   color: #359ADC;
   font-size: 18px;
   font-weight: bold;
 }
 
-.mk-footer-content > .club-info > ul {
-  margin-top: 20px;
-  padding-left: 5px;
-  list-style: none;
-}
-
-.mk-footer-content > .club-info > ul > li {
-  margin-top: 10px;
-  margin-bottom: 10px;
-}
-
-.mk-footer-content > .club-info > ul > li > span {
-  margin-right: 20px;
-}
-
-.mk-footer-content > .club-info > ul > li > div {
-  margin-left: 33px;
-  margin-top: 5px;
-  margin-bottom: 5px;
-  line-height: 20px;
-}
-
-.mk-footer-content > .club-weixin > .weixin-qrcode > img {
+.mk-footer-content > .club-social img {
   height: 100px;
   width: 100px;
   margin-bottom: 10px;
-}
-
-.mk-footer-content > .club-weixin > .weixin-qrcode > div {
-  margin-bottom: 5px;
 }
 
 /* ============================= index ============================= */
