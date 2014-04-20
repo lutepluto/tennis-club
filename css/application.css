@@ -255,14 +255,10 @@ footer > p {
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#777  ,endColorstr=#333,GradientType=1);
 }
 
-.mk-media-pane .mk-lightbox-image > a {
+.mk-media-pane .mk-lightbox-image > img {
   display: inline-block;
   float: left;
   width: 50%;
-}
-
-.mk-media-pane .mk-lightbox-image > a > img {
-  width: 100%;
 }
 
 /* ============================= court ============================= */
